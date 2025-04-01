@@ -1,0 +1,94 @@
+.chat-list {
+  background-color: #000000;
+  color: white;
+  padding: 20px;
+  height: 100vh; /* Full screen height */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #333333;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+}
+
+.search-bar::placeholder {
+  color: #aaaaaa;
+}
+
+.chats {
+  overflow-y: auto;
+  max-height: 70vh; /* Limit height to allow scrolling */
+}
+
+.chat-entry {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #333333;
+  cursor: pointer;
+}
+
+.chat-entry:hover {
+  background-color: #1a1a1a; /* Subtle hover effect */
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat-info {
+  flex: 1;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.subtext {
+  color: #aaaaaa;
+  font-size: 14px;
+}
+
+.timestamp {
+  color: #aaaaaa;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.unread-indicator {
+  background-color: green;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
